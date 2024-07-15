@@ -1,0 +1,81 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  height: 98%;
+}
+
+body {
+  height: 100%;
+}
+
+.report-heading {
+  font-family: "Pacifico", cursive !important;
+}
+
+.wrapper-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+#gantt_canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.gantt-row {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.non-gantt-row {
+  flex-shrink: 0;
+}
+
+.row > * {
+  padding: 0 !important;
+}
+
+.custome-icons {
+  vertical-align: unset !important;
+}
+.export-actions {
+  margin-right: 15px;
+}
+
+.date-pick {
+  background: #fff;
+  cursor: pointer;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.form-select {
+  font-size: 14px;
+}
+
+.form-check-input:checked {
+  background-color: #3db9d3;
+  border-color: #3db9d3;
+}
+
+.gantt_task_content {
+  color: #000;
+}
+
+.gantt_cell > .gantt_tree_content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
